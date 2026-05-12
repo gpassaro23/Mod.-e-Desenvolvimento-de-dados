@@ -1,0 +1,17 @@
+CREATE TABLE vendas (
+id_venda INT PRIMARY KEY,
+produto VARCHAR (50),
+quantidade INT,
+valor_unitario DECIMAL (10,2),
+data_venda DATE );
+
+
+INSERT INTO vendas (id_venda, produto, quantidade, valor_unitario, data_venda) VALUES
+(1, 'Notebook', 1, 3500.00, '2026-01-10'),
+(2, 'Mouse', 3, 50.00, '2026-01-12'),
+(3, 'Teclado', 2, 120.00, '2026-01-15'),
+(4, 'Monitor', 1, 900.00, '2026-02-01'),
+(5, 'Notebook', 2, 3200.00, '2026-02-05'),
+(6, 'Mouse', 5, 45.00, '2026-02-10'),
+(7, 'Headset', 1, 200.00, '2026-03-01'),
+(8, 'Teclado', 4, 150.00, '2026-03-05');
